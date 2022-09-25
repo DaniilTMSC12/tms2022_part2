@@ -15,7 +15,7 @@ public class SecurityPageServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         User user = new User("qwerty@gmail.com", "qwerty12345");
         if (req.getSession().getAttribute("user") != null
-        && req.getSession().getAttribute("user").equals(user)) {
+                && req.getSession().getAttribute("user").equals(user)) {
             RequestDispatcher requestDispatcher = req.getRequestDispatcher("/securityPage.html");
             requestDispatcher.forward(req, resp);
         } else {
