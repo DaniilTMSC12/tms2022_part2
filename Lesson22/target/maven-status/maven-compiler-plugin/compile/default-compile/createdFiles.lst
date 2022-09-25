@@ -1,0 +1,6 @@
+by\teachmeskills\calculator\model\Calculator.class
+by\teachmeskills\login\model\User.class
+by\teachmeskills\login\service\LoginServlet.class
+by\teachmeskills\calculator\service\CalculatorServlet.class
+by\teachmeskills\login\service\SecurityPageServlet.class
+by\teachmeskills\login\filter\MainFilter.class
